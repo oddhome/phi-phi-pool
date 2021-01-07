@@ -19,6 +19,7 @@ function yaamp_get_algos()
 		'blakecoin',
 		'blake2s',
 		'blake2b',
+		'bmw512',
 		'decred',
 		'deep',
 		'exosis',
@@ -221,6 +222,7 @@ function getAlgoColors($algo)
 		'yescryptR32'	=> '#e2d0d2',
 		'zr5'		=> '#d0b0d0',
 		'bcd'		=> '#ffd880',
+		'bmw512'	=> '#ffd880',
 
 		'MN'		=> '#ffffff', // MasterNode Earnings
 		'PoS'		=> '#ffffff'  // Stake
@@ -312,6 +314,7 @@ function getAlgoPort($algo)
 		'tribus'	=> 8533,
 			'a5a'   	=> 8633,
 		'bcd'		=> 3643,
+		'bmw512'	=> 5787,
 	);
 
 	global $configCustomPorts;
